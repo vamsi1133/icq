@@ -200,11 +200,11 @@ export const qadata = [
     id: "Life Cycle methods",
     heading: "Life Cycle Methods",
     answer: `In react JS we have 4 important life cycle methods, that involved mounting, updating , unmounting
-    The first stage is componentDidMount  , this happens when a component is loaded on to the UI . we can use this method to make any computation or api calls to display data when UI is loaded
-    The second stage is shouldComponentUpdate, this method returns true or false. If true the component will re-render. This method has parameters of nextState and nextProps. So that we can compare them with the current state or props. To proceed with re-render or not.
-    The third stage is componentDidUpdate, this method is triggered once component is updated, we can use this method to load any data from backend based on the props and state updated.
-    The last stage is componentWillUnmount, this method is triggered when the component is getting removed from the UI. We can use this to clean the timers or subscriptions.
-    Alternatively, We can simply use useEffect to maintain all these life cycle methods in functional components.
+   <br/> The first stage is componentDidMount  , this happens when a component is loaded on to the UI . we can use this method to make any computation or api calls to display data when UI is loaded
+   <br/>The second stage is shouldComponentUpdate, this method returns true or false. If true the component will re-render. This method has parameters of nextState and nextProps. So that we can compare them with the current state or props. To proceed with re-render or not.
+   <br/>The third stage is componentDidUpdate, this method is triggered once component is updated, we can use this method to load any data from backend based on the props and state updated.
+   <br/>The last stage is componentWillUnmount, this method is triggered when the component is getting removed from the UI. We can use this to clean the timers or subscriptions.
+   <br/>Alternatively, We can simply use useEffect to maintain all these life cycle methods in functional components.
      `,
   },
   {
@@ -289,11 +289,11 @@ export const qadata = [
     heading: "React Project Structure",
     answer: `We can create react project npx create-react-app command
     In react project we have 
-    Package.json -> it is a blueprint for our project, it contains details like app name, version, dependencies and scripts. 
-    Package-lock.json: it is used to lock the dependencies versions used while development, so in future we can have the same libraries installed.
-    Public folder: public folder consists of index.html and assets used in our application
-    SRC folder: src folder is where our actual application code goes, in  src we have index.js file, which is the root of our application and react application renders from here.
-    .gitignore: gitignore is used to ignore files or folders not needed to track with git, like node modules, env files.
+    <br/>Package.json -> it is a blueprint for our project, it contains details like app name, version, dependencies and scripts. 
+    <br/>Package-lock.json: it is used to lock the dependencies versions used while development, so in future we can have the same libraries installed.
+    <br/>Public folder: public folder consists of index.html and assets used in our application
+    <br/>SRC folder: src folder is where our actual application code goes, in  src we have index.js file, which is the root of our application and react application renders from here.
+    <br/>.gitignore: gitignore is used to ignore files or folders not needed to track with git, like node modules, env files.
     `,
   },
   {
@@ -307,10 +307,10 @@ export const qadata = [
     id: "redux flow",
     heading: "redux flow",
     answer: `When a user interacts with ui and dispatches actions. 
-    The action is dispatched to the Redux store.
-    Then reducer updates the respective action with the given payload
-    Then redux store stores and updates the new state
-    Then store then updates the UI with new state
+    <br/>The action is dispatched to the Redux store.
+    <br/>Then reducer updates the respective action with the given payload
+    <br/>Then redux store stores and updates the new state
+    <br/>Then store then updates the UI with new state
     `,
   },
   {
@@ -324,9 +324,9 @@ export const qadata = [
     id: "scope",
     heading: "scopes",
     answer: `the visibility of variables in the code logic. We have 3 scopes for variables.
-    Global Scope (if we don't declare var or let or const)
-    Local or Function Scope (var, let , const have local or functional scope)
-    Block Scope (let and const have the block scope)
+    <br/>Global Scope (if we don't declare var or let or const)
+    <br/>Local or Function Scope (var, let , const have local or functional scope)
+    <br/>Block Scope (let and const have the block scope)
     `,
   },
   {
@@ -359,9 +359,9 @@ export const qadata = [
     id: "useEffect",
     heading: "useEffect",
     answer: `useEffect is a react hook for maintaining the life cycles of a react component. When there is a state or props change useEffect will get triggered. We can control the renrenders with the second parameter in useEffect which is an array.
-    If we just want he mounting stage we can simply pass the empty array as the second argument
-    If we want components to control re-render or  re-render when a particular prop or state changes, we can pass the respective props or state to the array.
-    If we need to execute any logic while updating the state, we need to pass the array with the exact props or state we need to rerender.
+    <br/>If we just want he mounting stage we can simply pass the empty array as the second argument
+    <br/>If we want components to control re-render or  re-render when a particular prop or state changes, we can pass the respective props or state to the array.
+    <br/>If we need to execute any logic while updating the state, we need to pass the array with the exact props or state we need to rerender.
     Unmounting can also be handled by adding return statement in the useEffect itself
     We can use multiple use effects in a component.
     `,

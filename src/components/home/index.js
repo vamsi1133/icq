@@ -35,16 +35,14 @@ function Home(props) {
     setData(res);
   };
   return (
-    <Container maxWidth={75}>
-      <Grid container spacing={2}>
-        <Grid item xs={2}>
+      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} >
+        <Grid item md={2} sm={12}>
           <QuestionMenu search={findData} />
         </Grid>
-        <Grid item xs={10}>
+        <Grid item md={10} sm={12}>
           <Answer data={data} />
         </Grid>
       </Grid>
-    </Container>
   );
 }
 
