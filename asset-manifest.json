@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vamsi1133/icq/static/css/main.3e7e29ad.css",
-    "main.js": "/vamsi1133/icq/static/js/main.1b826790.js",
-    "static/js/787.1f50a989.chunk.js": "/vamsi1133/icq/static/js/787.1f50a989.chunk.js",
-    "static/media/logo.svg": "/vamsi1133/icq/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/vamsi1133/icq/index.html",
-    "main.3e7e29ad.css.map": "/vamsi1133/icq/static/css/main.3e7e29ad.css.map",
-    "main.1b826790.js.map": "/vamsi1133/icq/static/js/main.1b826790.js.map",
-    "787.1f50a989.chunk.js.map": "/vamsi1133/icq/static/js/787.1f50a989.chunk.js.map"
+    "main.css": "/icq/static/css/main.3e7e29ad.css",
+    "main.js": "/icq/static/js/main.b55b4217.js",
+    "static/js/787.1f50a989.chunk.js": "/icq/static/js/787.1f50a989.chunk.js",
+    "static/media/logo.svg": "/icq/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/icq/index.html",
+    "main.3e7e29ad.css.map": "/icq/static/css/main.3e7e29ad.css.map",
+    "main.b55b4217.js.map": "/icq/static/js/main.b55b4217.js.map",
+    "787.1f50a989.chunk.js.map": "/icq/static/js/787.1f50a989.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e7e29ad.css",
-    "static/js/main.1b826790.js"
+    "static/js/main.b55b4217.js"
   ]
 }
